@@ -6,7 +6,7 @@ with payments as (
         paymentmethod,
         status,
 
-        {{cents_to_dollars('payment_amount', 4) }} amount,
+        {{cents_to_dollars('amount', 4) }} amount,
         created
 
     from raw.stripe.payment
