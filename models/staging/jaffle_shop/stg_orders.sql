@@ -10,5 +10,5 @@ with orders as (
 
 )
 
-{{ limit_data_in_dev(column_name = 'order_date', dev_days_of_data = 1000) }}
+select * from orders
 
