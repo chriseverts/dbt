@@ -38,6 +38,6 @@ models:
         +materialized: table
     staging:
       jaffle_shop:
-        +materialized: view
+        +materialized: table
       stripe:
-        +materialized: view
+        +materialized: table
