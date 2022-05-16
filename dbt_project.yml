@@ -39,5 +39,6 @@ models:
     staging:
       jaffle_shop:
         +materialized: table
+        +schema: staging
       stripe:
         +materialized: table
